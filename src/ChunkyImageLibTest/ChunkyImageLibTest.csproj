@@ -8,10 +8,14 @@
 
     <Configurations>Debug;Release;Steam;DevRelease</Configurations>
 
-    <Platforms>AnyCPU;x64;x86</Platforms>
+    <Platforms>AnyCPU;x64;x86;ARM64</Platforms>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Steam|AnyCPU'">
+    <Optimize>True</Optimize>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Steam|ARM64'">
     <Optimize>True</Optimize>
   </PropertyGroup>
 

@@ -15,7 +15,7 @@
 		<ApplicationIcon>..\icon.ico</ApplicationIcon>
 		<Authors>Krzysztof Krysiński, Egor Mozgovoy, CPK</Authors>
 		<Configurations>Debug;Release;MSIX;MSIX Debug;Steam;DevRelease;DevSteam</Configurations>
-		<Platforms>AnyCPU;x64;x86</Platforms>
+		<Platforms>AnyCPU;x64;x86;ARM64</Platforms>
     <RuntimeIdentifiers>win-x86;win-x64</RuntimeIdentifiers>
     <ImplicitUsings>true</ImplicitUsings>
     <AssemblyVersion></AssemblyVersion>
@@ -27,6 +27,12 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <DefineConstants>TRACE;RELEASE</DefineConstants>
     <Optimize>true</Optimize>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MSIX|ARM64'">
+	  <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	  <DefineConstants>TRACE;RELEASE</DefineConstants>
+	  <Optimize>true</Optimize>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MSIX|x86'">
@@ -44,6 +50,14 @@
 	</PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MSIX Debug|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MSIX Debug|ARM64'">
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <DebugType>full</DebugType>
     <DebugSymbols>true</DebugSymbols>
@@ -74,6 +88,11 @@
 		<DefineConstants>TRACE;UPDATE</DefineConstants>
 	</PropertyGroup>
 
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+	  <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	  <DefineConstants>TRACE;UPDATE</DefineConstants>
+	</PropertyGroup>
+
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 		<DefineConstants>TRACE;UPDATE</DefineConstants>
@@ -91,6 +110,13 @@
 		<DebugType>full</DebugType>
 		<DebugSymbols>true</DebugSymbols>
 		<WarningLevel>0</WarningLevel>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+	  <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	  <DebugType>full</DebugType>
+	  <DebugSymbols>true</DebugSymbols>
+	  <WarningLevel>0</WarningLevel>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
