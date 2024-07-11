@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using PixiEditor.Extensions.Common.UserPreferences;
 using PixiEditor.Helpers;
 using PixiEditor.Models.Enums;
 using PixiEditor.Models.IO;
@@ -97,8 +98,12 @@ internal class SaveFilePopupViewModel : ViewModelBase
         if (path == null)
             return;
         FilePath = path;
-            
-        ((Window)parameter).DialogResult = true;
+        
+        if (IPreferences.Current.GetPreference("ShowFileLocation", true))
+        {
+            ((Window)parameter).DialogResult = true;
+        }
+
         CloseButton(parameter);
     }
 }

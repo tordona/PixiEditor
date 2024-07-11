@@ -111,19 +111,23 @@
 
                 <Label Style="{StaticResource SettingsHeader}" ui:Translator.Key="MISC" d:Content="Misc"/>
 
-                <CheckBox Margin="27 0"
+                <CheckBox Margin="27,0,27,10"
                           VerticalAlignment="Center" ui:Translator.Key="SHOW_STARTUP_WINDOW" d:Content="Show startup window"
                           IsChecked="{Binding SettingsSubViewModel.File.ShowStartupWindow}"/>
 
-                <CheckBox Margin="27 10"
+                <CheckBox Margin="27,0,27,10"
                           VerticalAlignment="Center" ui:Translator.Key="DISABLE_NEWS_PANEL" d:Content="Hide news in startup window"
                           IsChecked="{Binding SettingsSubViewModel.File.DisableNewsPanel}"/>
 
-                <CheckBox Margin="27 0"
-                          VerticalAlignment="Center" d:Content="Show image preview in taskbar" ui:Translator.Key="SHOW_IMAGE_PREVIEW_TASKBAR"
+                <CheckBox Margin="27,0,27,10"
+                          VerticalAlignment="Center" ui:Translator.Key="OPEN_LOCATION_AFTER_SAVE" d:Content="Show image preview in taskbar" 
+                          IsChecked="{Binding SettingsSubViewModel.File.ShowFileLocation}"/>
+
+                <CheckBox Margin="27,0,27,10"
+                          VerticalAlignment="Center" ui:Translator.Key="SHOW_IMAGE_PREVIEW_TASKBAR" d:Content="Open file location after save" 
                           IsChecked="{Binding SettingsSubViewModel.General.ImagePreviewInTaskbar}"/>
 
-                <StackPanel Margin="27 10 27 0" Orientation="Horizontal">
+                <StackPanel Margin="27 0" Orientation="Horizontal">
                 <Label Style="{StaticResource SettingsText}"
                        ui:Translator.Key="RECENT_FILE_LENGTH"
                        ui:Translator.TooltipKey="RECENT_FILE_LENGTH_TOOLTIP"/>

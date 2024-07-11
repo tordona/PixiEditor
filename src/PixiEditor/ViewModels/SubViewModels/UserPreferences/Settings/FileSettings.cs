@@ -54,4 +54,12 @@ internal class FileSettings : SettingsGroup
         get => disableNewsPanel;
         set => RaiseAndUpdatePreference(ref disableNewsPanel, value, PreferencesConstants.DisableNewsPanel);
     }
+
+    private bool showFileLocation = GetPreference(PreferencesConstants.ShowFileLocation, true);
+
+    public bool ShowFileLocation
+    {
+        get => showFileLocation;
+        set => RaiseAndUpdatePreference(ref showFileLocation, value, PreferencesConstants.ShowFileLocation);
+    }
 }

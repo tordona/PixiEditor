@@ -10,4 +10,5 @@ public static class PreferencesConstants
     public const string DisableNewsPanel = "DisableNewsPanel";
     public const string LastCheckedNewsIds = "LastCheckedNewsIds";
     public const string NewsPanelCollapsed = "NewsPanelCollapsed";
+    public const string ShowFileLocation = "ShowFileLocation";
 }
