@@ -12,6 +12,7 @@
   "SHOW_IMAGE_PREVIEW_TASKBAR": "عرض معاينة الصورة في شريط المهام",
   "RECENT_FILE_LENGTH": "طول قائمة الملفات الاخيرة",
   "RECENT_FILE_LENGTH_TOOLTIP": "كم عدد المستندات التي يتم اضهارها في ملف > الملفات الاخيرة. الافتراضي: 8",
+ "OPEN_LOCATION_AFTER_SAVE": "فتح موقع الملف بعد الحفظ",
   "DEFAULT_NEW_SIZE": "الحجم الافتراضي للملف الجديد",
   "WIDTH": "العرض",
   "HEIGHT": "الطول",

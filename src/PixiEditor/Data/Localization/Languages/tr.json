@@ -12,6 +12,7 @@
   "SHOW_IMAGE_PREVIEW_TASKBAR": "Görev çubuğunda resim önizlemesini göster",
   "RECENT_FILE_LENGTH": "Son dosya listesi uzunluğu",
   "RECENT_FILE_LENGTH_TOOLTIP": "Dosya > Son dosyalar altında gösterilen belge sayısı. Varsayılan: 8",
+  "OPEN_LOCATION_AFTER_SAVE": "Kaydettikten sonra dosya konumunu aç",
   "DEFAULT_NEW_SIZE": "Varsayılan yeni dosya boyutu",
   "WIDTH": "Genişlik",
   "HEIGHT": "Yükseklik",

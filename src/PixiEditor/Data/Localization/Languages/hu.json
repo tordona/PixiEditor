@@ -12,6 +12,7 @@
   "SHOW_IMAGE_PREVIEW_TASKBAR": "Képek előnézetének megjelenítése a feladatlistában",
   "RECENT_FILE_LENGTH": "Legutóbbi fájlok listájának hossza",
   "RECENT_FILE_LENGTH_TOOLTIP": "Ezzel beállíthatod, hogy hány dokumentum jelenjen meg a Fájl > Legutóbbi menüpont alatt. Alapértelmezett: 8",
+  "OPEN_LOCATION_AFTER_SAVE": "Mentés után nyissa meg a fájl helyét",
   "DEFAULT_NEW_SIZE": "Az új fájlok alapértelmezett méretei",
   "WIDTH": "Szélesség",
   "HEIGHT": "Magasság",

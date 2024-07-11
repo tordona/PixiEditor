@@ -12,6 +12,7 @@
   "SHOW_IMAGE_PREVIEW_TASKBAR": "Mostrar prévia da imagem na barra de tarefas",
   "RECENT_FILE_LENGTH": "Número de arquivos recentes exibidos",
   "RECENT_FILE_LENGTH_TOOLTIP": "Quantos documentos são exibidos em Arquivo > Recentes. Padrão: 8",
+  "OPEN_LOCATION_AFTER_SAVE": "Abra o local do arquivo após salvar",
   "DEFAULT_NEW_SIZE": "Novo tamanho padrão de arquivo",
   "WIDTH": "Largura",
   "HEIGHT": "Altura",

@@ -12,6 +12,7 @@
   "SHOW_IMAGE_PREVIEW_TASKBAR": "在工具栏显示图像预览",
   "RECENT_FILE_LENGTH": "最近文件列表长度",
   "RECENT_FILE_LENGTH_TOOLTIP": "文件>最近中的文件数量。默认值：8",
+  "OPEN_LOCATION_AFTER_SAVE": "保存后打开文件位置",
   "DEFAULT_NEW_SIZE": "新文件默认大小",
   "WIDTH": "宽度",
   "HEIGHT": "高度",

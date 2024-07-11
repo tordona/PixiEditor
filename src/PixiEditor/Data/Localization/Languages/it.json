@@ -12,6 +12,7 @@
   "SHOW_IMAGE_PREVIEW_TASKBAR": "Mostra l'anteprima dell'immagine nella barra delle applicazioni",
   "RECENT_FILE_LENGTH": "Lunghezza elenco file recenti",
   "RECENT_FILE_LENGTH_TOOLTIP": "Quanti documenti vengono visualizzati in File > Recenti. Predefinito: 8",
+  "OPEN_LOCATION_AFTER_SAVE": "Apri il percorso del file dopo il salvataggio",
   "DEFAULT_NEW_SIZE": "Dimensione predefinita di un nuovo file",
   "WIDTH": "Larghezza",
   "HEIGHT": "Altezza",

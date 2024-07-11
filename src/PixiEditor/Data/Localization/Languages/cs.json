@@ -12,6 +12,7 @@
   "SHOW_IMAGE_PREVIEW_TASKBAR": "Zobrazit náhled obrázku na hlavním panelu",
   "RECENT_FILE_LENGTH": "Délka seznamu posledních souborů",
   "RECENT_FILE_LENGTH_TOOLTIP": "Kolik dokumentů se objeví pod \"File > Recent\".\nNormálně: 8",
+  "OPEN_LOCATION_AFTER_SAVE": "Po uložení otevřete umístění souboru",
   "DEFAULT_NEW_SIZE": "Standartní velikost nového souboru",
   "WIDTH": "Šířka",
   "HEIGHT": "Výška",

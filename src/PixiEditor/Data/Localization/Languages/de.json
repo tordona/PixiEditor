@@ -12,6 +12,7 @@
   "SHOW_IMAGE_PREVIEW_TASKBAR": "Bildvorschau in der Taskbar anzeigen",
   "RECENT_FILE_LENGTH": "Anzahl an gezeigten zuletzt geöffneten datein",
   "RECENT_FILE_LENGTH_TOOLTIP": "Wie viele zuletzt geöffnete Dateien in der Datei > Zuletzt geöffnet liste angezeigt werden. Standard: 8",
+  "OPEN_LOCATION_AFTER_SAVE": "Dateispeicherort nach dem Speichern öffnen",
   "DEFAULT_NEW_SIZE": "Standardgröße neuer Datein",
   "WIDTH": "Breite",
   "HEIGHT": "Höhe",

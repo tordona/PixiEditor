@@ -12,6 +12,7 @@
   "SHOW_IMAGE_PREVIEW_TASKBAR": "Show image preview in taskbar",
   "RECENT_FILE_LENGTH": "Recent file list length",
   "RECENT_FILE_LENGTH_TOOLTIP": "How many documents are shown under File > Recent. Default: 8",
+  "OPEN_LOCATION_AFTER_SAVE": "Open file location after save",
   "DEFAULT_NEW_SIZE": "Default new file size",
   "WIDTH": "Width",
   "HEIGHT": "Height",

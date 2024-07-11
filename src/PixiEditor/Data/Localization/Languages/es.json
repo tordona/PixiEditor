@@ -12,6 +12,7 @@
   "SHOW_IMAGE_PREVIEW_TASKBAR": "Mostrar imagen en la barra de tareas",
   "RECENT_FILE_LENGTH": "Longitud de la lista de archivos reciente",
   "RECENT_FILE_LENGTH_TOOLTIP": "Cuántos documentos se muestran en Archivo > Recientes. Por defecto: 8",
+  "OPEN_LOCATION_AFTER_SAVE": "Abrir la ubicación del archivo después de guardar",
   "DEFAULT_NEW_SIZE": "Nuevo archivo por defecto",
   "WIDTH": "Anchura",
   "HEIGHT": "Altura",

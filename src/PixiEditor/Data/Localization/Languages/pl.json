@@ -12,6 +12,7 @@
   "SHOW_IMAGE_PREVIEW_TASKBAR": "Pokaż podgląd obrazu w pasku zadań",
   "RECENT_FILE_LENGTH": "Ilość ostatnich plików",
   "RECENT_FILE_LENGTH_TOOLTIP": "Ile plików jest wyświetlanych w menu Plik -> Ostatnie. Domyślnie 8",
+  "OPEN_LOCATION_AFTER_SAVE": "Otwórz lokalizację pliku po zapisaniu",
   "DEFAULT_NEW_SIZE": "Domyslny rozmiar nowego obrazu",
   "WIDTH": "Szerokość",
   "HEIGHT": "Wysokość",
